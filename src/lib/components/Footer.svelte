@@ -1,13 +1,13 @@
 <footer class="py-24 border-t border-white/5 bg-black">
   <div class="max-w-[1200px] mx-auto px-6">
     <div class="flex flex-col md:flex-row justify-between items-center mb-24">
-        <h2 class="text-3xl md:text-4xl font-medium text-center md:text-left mb-8 md:mb-0">Plan the present. Build the future.</h2>
+        <h2 class="text-3xl md:text-4xl font-medium text-center md:text-left mb-8 md:mb-0">Observability without the complexity.</h2>
         <div class="flex items-center gap-4">
             <button class="bg-white/10 hover:bg-white/20 text-white px-4 py-2 rounded-full text-sm font-medium transition-colors border border-white/5">
                 Contact sales
             </button>
-            <button class="bg-white text-black px-4 py-2 rounded-full text-sm font-medium hover:bg-gray-100 transition-colors">
-                Get started
+            <button class="bg-gradient-to-r from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-700 text-white px-4 py-2 rounded-full text-sm font-medium transition-all">
+                Start free trial
             </button>
         </div>
     </div>

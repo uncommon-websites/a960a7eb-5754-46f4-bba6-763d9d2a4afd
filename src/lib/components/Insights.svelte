@@ -1,9 +1,9 @@
 <section class="py-24 border-t border-white/5">
   <div class="max-w-[1200px] mx-auto px-6">
     <div class="mb-16">
-      <h2 class="text-4xl font-medium mb-4">Linear Insights</h2>
+      <h2 class="text-4xl font-medium mb-4">Observability Insights</h2>
       <p class="text-xl text-gray-400 max-w-2xl mb-8">
-        Take the guesswork out of product planning with realtime analytics and reporting dashboards.
+        Understand system behavior with real-time analytics. Track performance trends, identify patterns, and optimize your infrastructure.
       </p>
       <button class="bg-white/10 hover:bg-white/20 text-white px-4 py-2 rounded-full text-sm font-medium transition-colors border border-white/5">
         Learn more >
@@ -15,16 +15,16 @@
         <!-- Chart Header -->
         <div class="flex items-center justify-between mb-8">
              <div class="flex items-center gap-4">
-                 <div class="text-white font-medium">Cycle Time</div>
+                 <div class="text-white font-medium">Response Time Distribution</div>
                  <div class="flex items-center gap-2 text-xs text-gray-500">
-                     <span class="w-2 h-2 rounded-full bg-blue-500"></span> Segment
+                     <span class="w-2 h-2 rounded-full bg-secondary-500"></span> API Gateway
                  </div>
                  <div class="flex items-center gap-2 text-xs text-gray-500">
-                     <span class="w-2 h-2 rounded-full bg-purple-500"></span> Team
+                     <span class="w-2 h-2 rounded-full bg-primary-500"></span> Auth Service
                  </div>
              </div>
              <div class="flex items-center gap-2 text-xs text-gray-500 border border-white/10 rounded px-2 py-1">
-                 Last 3 months <svg viewBox="0 0 12 12" class="w-2 h-2 fill-current"><path d="M6 8L3 5h6z"/></svg>
+                 Last 24 hours <svg viewBox="0 0 12 12" class="w-2 h-2 fill-current"><path d="M6 8L3 5h6z"/></svg>
              </div>
         </div>
 
@@ -69,7 +69,7 @@
                         style="
                             left: {Math.random() * 100}%; 
                             top: {Math.random() * 100}%; 
-                            background-color: {Math.random() > 0.5 ? '#3b82f6' : '#a855f7'};
+                            background-color: {Math.random() > 0.5 ? '#06b6d4' : '#ec4899'};
                             opacity: {Math.random() * 0.5 + 0.3};
                         "
                     ></div>
@@ -81,9 +81,9 @@
                 
                 <!-- Tooltip Mockup -->
                 <div class="absolute left-[62%] top-[25%] bg-[#1a1c1e] border border-white/10 rounded p-2 text-[10px] z-10 shadow-xl">
-                    <div class="text-gray-400">ENG-2938</div>
-                    <div class="text-white font-medium">API Latency Fix</div>
-                    <div class="text-blue-400">3 days</div>
+                    <div class="text-gray-400">POST /api/users</div>
+                    <div class="text-white font-medium">api-gateway</div>
+                    <div class="text-secondary-400">142ms</div>
                 </div>
             </div>
         </div>
@@ -94,30 +94,30 @@
         <div>
             <div class="flex items-center gap-2 text-white font-medium mb-2">
                 <svg viewBox="0 0 24 24" class="w-4 h-4 text-gray-400 fill-current"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z"/></svg>
-                Tailored workflows
+                High-cardinality support
             </div>
-            <p class="text-sm text-gray-500 leading-relaxed">Track progress across custom issue flows for your team.</p>
+            <p class="text-sm text-gray-500 leading-relaxed">Real-time search and filtering on any attribute.</p>
         </div>
         <div>
             <div class="flex items-center gap-2 text-white font-medium mb-2">
                 <svg viewBox="0 0 24 24" class="w-4 h-4 text-gray-400 fill-current"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
-                Custom views
+                Custom dashboards
             </div>
-            <p class="text-sm text-gray-500 leading-relaxed">Switch between list and board. Group issues with swimlanes.</p>
+            <p class="text-sm text-gray-500 leading-relaxed">Build views tailored to your team's workflow.</p>
         </div>
         <div>
             <div class="flex items-center gap-2 text-white font-medium mb-2">
                 <svg viewBox="0 0 24 24" class="w-4 h-4 text-gray-400 fill-current"><path d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z"/></svg>
-                Filters
+                Advanced filters
             </div>
-            <p class="text-sm text-gray-500 leading-relaxed">Refine issue lists down to what's most relevant to you.</p>
+            <p class="text-sm text-gray-500 leading-relaxed">Query telemetry with powerful filtering capabilities.</p>
         </div>
         <div>
             <div class="flex items-center gap-2 text-white font-medium mb-2">
                 <svg viewBox="0 0 24 24" class="w-4 h-4 text-gray-400 fill-current"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
-                SLAs
+                Data retention
             </div>
-            <p class="text-sm text-gray-500 leading-relaxed">Automatically apply deadlines to time-sensitive tasks.</p>
+            <p class="text-sm text-gray-500 leading-relaxed">13 months for metrics, 30 days for logs and traces.</p>
         </div>
     </div>
   </div>
